@@ -30,10 +30,13 @@ class TqdmCallback(TrainerCallback):
         if self.pbar:
             self.pbar.close()
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--train_path", required=True, help="Path to training JSONL file")
+parser.add_argument("--dev_path", required=True, help="Path to validation JSONL file")
+parser.add_argument("--output_dir", required=True, help="Directory to save model checkpoints and final model")
+args = parser.parse_args()
+
 model_name = "google/flan-t5-small"
-train_path = "/gscratch/scrubbed/dinuoz/fine_tune_grammar/wi+locness/m2/ABC.train.gold.bea19.jsonl" 
-dev_path = "/gscratch/scrubbed/dinuoz/fine_tune_grammar/wi+locness/m2/new_dev.jsonl"
-output_dir = "./flan_t5_grammar_full"
 max_input_length = 256
 max_target_length = 256
 batch_size = 4
