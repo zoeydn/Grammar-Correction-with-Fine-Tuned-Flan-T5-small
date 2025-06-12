@@ -4,7 +4,7 @@ This project improves English grammar correction using parameter-efficient fine-
 
 ## Dataset
 
-The project uses the **Write & Improve + LOCNESS v2.1** dataset from the [BEA-2019 Shared Task](https://www.cl.cam.ac.uk/research/nl/bea2019st/#data). This dataset consists of learner-written English annotated with grammatical corrections, making it ideal for GEC tasks.
+The project uses the **Write & Improve + LOCNESS v2.1** dataset from the [BEA-2019 Shared Task](https://www.cl.cam.ac.uk/research/nl/bea2019st/#data). This dataset consists of learner-written English annotated with grammatical corrections.
 
 - Download: [BEA 2019 Shared Task Data](https://www.cl.cam.ac.uk/research/nl/bea2019st/#data)
 
