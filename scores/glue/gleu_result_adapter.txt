@@ -1,0 +1,1 @@
+pred_adapter.txt 0.705576
