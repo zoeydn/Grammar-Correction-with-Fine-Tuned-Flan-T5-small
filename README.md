@@ -40,8 +40,7 @@ Evaluate model performance using:
 - **F0.5 score**, which weights precision twice as much as recall.
 - **GLEU score**, a GEC-specific metric adapted from BLEU for better alignment with human judgments.
 
-📍 GLEU implementation adapted from:  
-https://github.com/cnap/grammatical-error-correction
+GLEU implementation adapted from: https://github.com/cnap/grammatical-error-correction
 
 ## Demo
 
