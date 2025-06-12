@@ -31,10 +31,13 @@ class TqdmCallback(TrainerCallback):
         if self.pbar:
             self.pbar.close()
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--train_path", required=True, help="Path to training JSONL file")
+parser.add_argument("--dev_path", required=True, help="Path to validation JSONL file")
+parser.add_argument("--output_dir", required=True, help="Directory to save LoRA adapter and checkpoints")
+args = parser.parse_args()
+
 model_name = "google/flan-t5-small"
-train_path = "/wi+locness/m2/ABC.train.gold.bea19.jsonl" 
-dev_path = "/wi+locness/m2/new_dev.jsonl"
-output_dir = "./flan_t5_grammar_lora"
 max_input_length = 256
 max_target_length = 256
 batch_size = 4
@@ -56,7 +59,6 @@ lora_config = LoraConfig(
 model = get_peft_model(base_model, lora_config)
 print(model.print_trainable_parameters())
 
-# ==== Load and preprocess data ====
 def load_jsonl(path):
     with open(path, "r") as f:
         return [json.loads(line) for line in f]
@@ -99,8 +101,6 @@ tokenized_train = train_dataset.map(
     preprocess, remove_columns=train_dataset.column_names)
 tokenized_eval  = eval_dataset.map(
     preprocess, remove_columns=eval_dataset.column_names)
-
-
 
 ex = tokenized_train[0]
 
