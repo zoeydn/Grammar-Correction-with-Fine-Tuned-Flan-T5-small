@@ -12,8 +12,13 @@ https://drive.google.com/file/d/1OmKUufOSmJNzq9Ki93jiMiUJpJ5P15Ur/view?usp=shari
 
 
 ## Models
+e.g. fine-tune with lora:<br>
+                        python3 scripts/fine_tune_lora.py \
+                          --train_path /wi+locness/m2/ABC.train.gold.bea19.jsonl \
+                          --dev_path /train_dev_test/new_dev.jsonl \
+                          --output_dir ./flan_t5_grammar_lora
 
-[Trained Modesl] (https://drive.google.com/file/d/1XK22QTXzbBQHBHKUK6hGLeCgO1nGmL3p/view?usp=sharing)
+[Trained Modesl](https://drive.google.com/file/d/1XK22QTXzbBQHBHKUK6hGLeCgO1nGmL3p/view?usp=sharing)
 
 ## Predictions
 e.g. checkpoint-11000:<br>
