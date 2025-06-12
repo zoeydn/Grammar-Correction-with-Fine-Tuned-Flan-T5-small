@@ -15,6 +15,13 @@ https://drive.google.com/file/d/1OmKUufOSmJNzq9Ki93jiMiUJpJ5P15Ur/view?usp=shari
 
 https://drive.google.com/file/d/1XK22QTXzbBQHBHKUK6hGLeCgO1nGmL3p/view?usp=sharing
 
+## Predictions
+e.g. checkpoint-11000:<br>
+                      python3 predictions/fine_tuned_lora/lora_predictions.py \
+                        --input_file /train_dev_test/new_test.jsonl \
+                        --output_file predictions/fine_tuned_lora/tuned_predictions_11000.jsonl \
+                        --checkpoint ./flan_t5_grammar_lora/checkpoint-11000
+
 ##  Evaluation
 
 Evaluate model performance using:
