@@ -21,7 +21,7 @@ e.g. fine-tune with lora:<br>
                   python3 scripts/fine_tune_lora.py \
                           --train_path /wi+locness/m2/ABC.train.gold.bea19.jsonl \
                           --dev_path /train_dev_test/new_dev.jsonl \
-                          --output_dir ./flan_t5_grammar_lora
+                          --output_dir /flan_t5_grammar_lora
 ```
 [Trained Modesl](https://drive.google.com/file/d/1XK22QTXzbBQHBHKUK6hGLeCgO1nGmL3p/view?usp=sharing)
 
@@ -31,7 +31,7 @@ e.g. checkpoint-11000:<br>
                 python3 predictions/fine_tuned_lora/lora_predictions.py \
                         --input_file /train_dev_test/new_test.jsonl \
                         --output_file predictions/fine_tuned_lora/tuned_predictions_11000.jsonl \
-                        --checkpoint ./flan_t5_grammar_lora/checkpoint-11000
+                        --checkpoint /flan_t5_grammar_lora/checkpoint-11000
 ```
 ## Evaluation
 
