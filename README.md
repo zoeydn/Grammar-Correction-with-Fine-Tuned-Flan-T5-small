@@ -25,6 +25,11 @@ Evaluate model performance using:
 📍 GLEU implementation adapted from:  
 https://github.com/cnap/grammatical-error-correction
 
+## Demo
+
+Grammar correction model: https://70827dfebb7677c828.gradio.live
+This demo uses a Flan-T5-small model fine-tuned with LoRA for grammar correction on English sentences, loaded from the final checkpoint at step 11000.
+
 ## Citation
 
 @inproceedings{bryant-etal-2019-bea,
