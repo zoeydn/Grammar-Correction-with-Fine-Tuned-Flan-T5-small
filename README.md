@@ -11,7 +11,7 @@ The project uses the **Write & Improve + LOCNESS v2.1** dataset from the [BEA-20
 ## Cleaned Dataset Used
 
 https://drive.google.com/file/d/1OmKUufOSmJNzq9Ki93jiMiUJpJ5P15Ur/view?usp=sharing
-
+- /train_dev_test/to_instruction.py was used to format the m2 file to a jsonl file with instruction, input and out
 - Test set is split from the dev set in the original dataset (wi+locness/m2/ABCN.dev.gold.bea19.m2) using split_dev.py in the [cleaned dataset file](https://drive.google.com/file/d/1OmKUufOSmJNzq9Ki93jiMiUJpJ5P15Ur/view?usp=sharing)
 
 
