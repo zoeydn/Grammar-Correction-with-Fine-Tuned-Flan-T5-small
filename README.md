@@ -1,7 +1,6 @@
 ## Overview
 
-This project improves English grammar correction using parameter-efficient fine-tuning (LoRA) on top of Flan-T5-small. <br>
-The models are evaluated using f0.5 score and gleu score.
+This project improves English grammar correction using parameter-efficient fine-tuning (LoRA) on top of Flan-T5-small. The models are trained with Write & Improve + LOCNESS v2.1 dataset and evaluated using f0.5 score and gleu score.
 
 ## Dataset
 
