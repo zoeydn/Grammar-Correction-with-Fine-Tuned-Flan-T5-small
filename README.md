@@ -36,7 +36,7 @@ e.g. checkpoint-11000:<br>
 ## Evaluation
 
 Evaluate model performance using:<br>
-git+https://github.com/chrisjbryant/errant needs to be installed for F0.5 score
+https://github.com/chrisjbryant/errant needs to be installed for F0.5 score
 
 - **F0.5 score**, which weights precision twice as much as recall.
 - **GLEU score**, a GEC-specific metric adapted from BLEU for better alignment with human judgments.
