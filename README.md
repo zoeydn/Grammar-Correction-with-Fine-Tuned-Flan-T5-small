@@ -1,3 +1,8 @@
+## Overview
+
+This project improves English grammar correction using parameter-efficient fine-tuning (LoRA) on top of Flan-T5-small. <br>
+The models are evaluated using f0.5 score and gleu score.
+
 ## Dataset
 
 The project uses the **Write & Improve + LOCNESS v2.1** dataset from the [BEA-2019 Shared Task](https://www.cl.cam.ac.uk/research/nl/bea2019st/#data). This dataset consists of learner-written English annotated with grammatical corrections, making it ideal for GEC tasks.
