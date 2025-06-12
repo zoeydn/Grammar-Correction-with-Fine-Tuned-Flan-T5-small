@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1OmKUufOSmJNzq9Ki93jiMiUJpJ5P15Ur/view?usp=shari
 
 ## Trained Models
 
-https://drive.google.com/file/d/1IPWX7amaxUb_jbu9gssZCY2J3SIFbyZa/view?usp=sharing
+https://drive.google.com/file/d/1XK22QTXzbBQHBHKUK6hGLeCgO1nGmL3p/view?usp=sharing
 
 ##  Evaluation
 
