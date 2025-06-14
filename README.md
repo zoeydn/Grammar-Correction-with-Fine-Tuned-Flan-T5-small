@@ -28,7 +28,7 @@ e.g. fine-tune with lora:<br>
 ## Predictions
 e.g. checkpoint-11000:<br>
 ```bash
-                python3 predictions/fine_tuned_lora/lora_predictions.py \
+                python3 prediction_results/fine_tuned_lora/lora_predictions.py \
                         --input_file /train_dev_test/new_test.jsonl \
                         --output_file predictions/fine_tuned_lora/tuned_predictions_11000.jsonl \
                         --checkpoint /flan_t5_grammar_lora/checkpoint-11000
